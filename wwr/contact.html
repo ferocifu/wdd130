@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" >
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" >
-  <meta name="description" content="Get in touch with Rafting Adventures. Ask questions or request information about our rafting trips and services." >
+  <meta name="description" content="Contact Downriver Rafting for questions and information about our rafting trips and services." >
   <meta name="author" content="Fernanda Ortiz" >
   <title>Contact Us - Downriver Rafting</title>
   <link rel="stylesheet" href="styles/rafting.css" >
@@ -32,12 +32,28 @@
     <p>If you have any questions or want to learn more about our rafting trips, please get in touch!</p>
 
     <section class="contact-info">
-      <p><strong>Phone:</strong> 123-456-7890</p>
-      <p><strong>Email:</strong> info@downriverrafting.com</p>
-      <p><strong>Address:</strong> 123 River St, Adventure City</p>
+      <h2>Our Information</h2>
+      <adress>
+        <p><strong>Phone:</strong> 123-456-7890</p>
+        <p><strong>Email:</strong> info@downriverrafting.com</p>
+        <p><strong>Address:</strong> 123 River St, Adventure City</p>
+      </adress>
+    </section>
+
+    <section class="map">
+      <h2>Find Us Here</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509073!2d144.95373531531684!3d-37.81627977975144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ5JzAwLjYiUyAxNDTCsDU3JzE1LjQiRQ!5e0!3m2!1sen!2sus!4v1614031234567"
+        width="400"
+        height="300"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
     </section>
 
     <section class="contact-form">
+      <h2>Send Us a Message</h2>
       <form action="#" method="post">
         <label for="name">Name:</label><br />
         <input type="text" id="name" name="name" required /><br />
@@ -45,16 +61,53 @@
         <label for="email">Email:</label><br />
         <input type="email" id="email" name="email" required /><br />
 
+        <p>Purpose of Message:</p>
+        <label>
+          <input type="radio" name="purpose" value="general" required>
+          General Inquiry
+        </label><br>
+        <label>
+          <input type="radio" name="purpose" value="reservation">
+          Reservation Question
+        </label><br>
+        <label>
+          <input type="radio" name="purpose" value="suggestion">
+          Website Suggestion
+        </label><br>
+
+
         <label for="message">Message:</label><br />
         <textarea id="message" name="message" rows="5" required></textarea><br />
 
+        <label>
+          <input type="checkbox" name="newsletter">
+          Please subscribe me to the monthly newsletter
+        </label><br>
+
         <button type="submit">Send</button>
       </form>
+    </section>
+
+     <section class="employees">
+      <h2>Meet Our Team</h2>
+      <figure>
+        <img src="images/employee1.jpg" alt="Johana, River Guide">
+        <figcaption>Johana - River Guide</figcaption>
+      </figure>
+      <figure>
+        <img src="images/employee2.jpg" alt="Sara, Trip Planner">
+        <figcaption>Sara - Trip Planner</figcaption>
+      </figure>
+      <figure>
+        <img src="images/employee3.jpg" alt="Mike, Safety Instructor">
+        <figcaption>Mike - Safety Instructor</figcaption>
+      </figure>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Downriver Rafting | Fernanda Ortiz</p>
+    <p><a href="images/wireframe-contact.png">View Contact Page Wireframe</a></p>
     <nav class="social">
       <a href="https://facebook.com"><img src="images/facebook-icon.png" alt="Facebook social media icon" ></a>
       <a href="https://twitter.com"><img src="images/twitter-icon.png" alt="Twitter social media icon" ></a>
