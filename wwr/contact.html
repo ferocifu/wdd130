@@ -61,16 +61,16 @@
         <input type="email" id="email" name="email" required /><br />
 
         <p>Purpose of Message:</p>
-        <label>
-          <input type="radio" name="purpose" value="general" required>
+        <label for="purpose-general">
+          <input type="radio" id="purpose-general" name="purpose" value="general" required>
           General Inquiry
         </label><br>
-        <label>
-          <input type="radio" name="purpose" value="reservation">
+        <label for="purpose-reservation">
+          <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
           Reservation Question
         </label><br>
-        <label>
-          <input type="radio" name="purpose" value="suggestion">
+        <label for="purpose-suggestion">
+          <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
           Website Suggestion
         </label><br>
 
@@ -78,8 +78,8 @@
         <label for="message">Message:</label><br />
         <textarea id="message" name="message" rows="5" required></textarea><br />
 
-        <label>
-          <input type="checkbox" name="newsletter">
+        <label for="newsletter">
+          <input type="checkbox" id="newsletter" name="newsletter">
           Please subscribe me to the monthly newsletter
         </label><br>
 
